@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/fragment_backup_message_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView7" android:padding="16dp"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view3" android:layout_height="8dp" android:background="#689f38"
+                        android:layout_weight="1"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="8dp" android:id="@+id/view4" android:background="#C2185B"
+                        android:layout_weight="1"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view5" android:layout_weight="1" android:layout_height="8dp"
+                        android:background="#1976D2"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view6" android:layout_weight="1" android:layout_height="8dp"
+                        android:background="#AFB42B"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view7" android:layout_weight="1" android:layout_height="8dp"
+                        android:background="#616161"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view8" android:layout_weight="1"
+                        android:background="#E64A19" android:layout_height="8dp"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view9" android:layout_weight="1" android:layout_height="8dp"
+                        android:background="#00796B"/>
+            </LinearLayout>
+            <TextView
+                    android:text="@string/fragment_backup_message_backup_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView8"
+                    android:background="@color/colorPrimary" android:textColor="#fff" android:padding="4dp"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/fragment_backup_message_backup_destination"
+                        android:layout_height="wrap_content" android:id="@+id/textView9"
+                        android:paddingBottom="8dp" android:paddingTop="8dp" android:paddingLeft="4dp"
+                        android:layout_weight="1" android:layout_width="0dp"/>
+                <TextView
+                        android:text="@string/fragment_backup_message_noselected"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" android:id="@+id/backupPath" android:layout_weight="2"
+                        android:paddingBottom="8dp" android:paddingTop="8dp" android:textAlignment="textEnd"
+                        android:paddingRight="4dp"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/fragment_backup_message_backuptype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView11" android:layout_weight="1"
+                        android:paddingLeft="4dp"/>
+                <TextView
+                        android:text="@string/fragment_backup_message_backuptype_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView12" android:layout_weight="1"
+                        android:paddingRight="4dp" android:textAlignment="textEnd"/>
+            </LinearLayout>
+            <Button
+                    android:text="@string/fragment_backup_button_select"
+                    android:layout_height="wrap_content" android:id="@+id/backupChoose"
+                    style="@style/Widget.AppCompat.Button" android:layout_weight="1"
+                    android:layout_width="match_parent"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"/>
+            <TextView
+                    android:text="@string/fragment_backup_message_attention_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView17" android:padding="4dp"
+                    android:background="@color/colorPrimary" android:textColor="#fff"/>
+            <TextView
+                    android:text="@string/fragment_backup_message_attention"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView14"
+                    android:padding="4dp"/>
+            <Button
+                    android:text="@string/fragment_backup_button_start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/backupStart"
+                    style="@style/Widget.AppCompat.Button.Colored"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--
+    <com.google.android.gms.ads.AdView
+            android:id="@+id/backupAdView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-1788933592781069/2839960847"
+    >
+    </com.google.android.gms.ads.AdView>
+    -->
+
+    <!-- ca-app-pub-1788933592781069/2839960847 -->
+
+</RelativeLayout>

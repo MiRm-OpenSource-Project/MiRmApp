@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView
+            android:id="@+id/ScrollView"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+    >
+        <LinearLayout
+                android:id="@+id/LinearLayout"
+                android:orientation="vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"/>
+            <TextView
+                    android:text="@string/fragment_setting_message_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView15"
+                    android:padding="4dp"/>
+            <Switch
+                    android:text="@string/fragment_setting_switch_savelog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/saveLog" android:checked="true"
+                    android:paddingLeft="4dp" android:paddingRight="4dp"/>
+            <TextView
+                    android:text="@string/fragment_setting_message_savelog_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView19" android:paddingLeft="4dp"
+                    android:paddingRight="4dp"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:paddingLeft="4dp" android:paddingRight="4dp">
+                <TextView
+                        android:text="50ms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView26" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+                <TextView
+                        android:text="1000ms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView27" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textAlignment="textEnd"/>
+            </LinearLayout>
+            <SeekBar
+                    style="@style/Widget.AppCompat.SeekBar.Discrete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="19"
+                    android:progress="0"
+                    android:id="@+id/consoleBar" android:progressBackgroundTint="@color/colorLoginForm"
+                    android:paddingRight="4dp" android:paddingLeft="4dp"/>
+            <TextView
+                    android:text="50ms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/consoleTick" android:textAlignment="textEnd"
+                    android:paddingRight="4dp" android:paddingLeft="4dp"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+            <TextView
+                    android:text="@string/fragment_setting_message_console_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView28" android:paddingLeft="4dp"
+                    android:paddingRight="4dp"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view3" android:layout_height="8dp" android:background="#689f38"
+                        android:layout_weight="1"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="8dp" android:id="@+id/view4" android:background="#C2185B"
+                        android:layout_weight="1"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view5" android:layout_weight="1" android:layout_height="8dp"
+                        android:background="#1976D2"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view6" android:layout_weight="1" android:layout_height="8dp"
+                        android:background="#AFB42B"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view7" android:layout_weight="1" android:layout_height="8dp"
+                        android:background="#616161"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view8" android:layout_weight="1"
+                        android:background="#E64A19" android:layout_height="8dp"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view9" android:layout_weight="1" android:layout_height="8dp"
+                        android:background="#00796B"/>
+            </LinearLayout>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"/>
+            <Button
+                    android:text="@string/fragment_setting_button_formula"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" android:id="@+id/formulaButton" android:paddingLeft="4dp"
+                    android:paddingRight="4dp"/>
+            <Button
+                    android:text="@string/fragment_setting_button_deletelog"
+                    android:layout_width="match_parent"
+                    android:id="@+id/deleteLog" android:layout_height="40dp"
+                    android:paddingLeft="4dp" android:paddingRight="4dp"/>
+            <Button
+                    android:text="@string/fragment_setting_button_deleteserver"
+                    android:layout_width="match_parent"
+                    android:id="@+id/deleteServer" android:textColor="#ff0000"
+                    android:layout_height="40dp" android:paddingLeft="4dp" android:paddingRight="4dp"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+            <TextView
+                    android:text="@string/fragment_setting_message_deleteserver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView20" android:paddingLeft="4dp"
+                    android:paddingRight="4dp"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--
+    <com.google.android.gms.ads.AdView
+            android:id="@+id/settingAdView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-1788933592781069/7804798328"
+    >
+    </com.google.android.gms.ads.AdView>
+    -->
+
+    <!-- ca-app-pub-1788933592781069/7804798328 -->
+
+</RelativeLayout>

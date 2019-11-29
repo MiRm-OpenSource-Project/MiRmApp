@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:id="@+id/group0">
+        <item
+                android:id="@+id/nav_console"
+                android:icon="@drawable/ic_video_label_black_24dp"
+                android:title="@string/drawer_console"/>
+        <item
+                android:id="@+id/nav_control"
+                android:icon="@drawable/ic_tune_black_24dp"
+                android:title="@string/drawer_control"/>
+        <item
+                android:id="@+id/nav_backup"
+                android:icon="@drawable/ic_folder_black_24dp"
+                android:title="@string/drawer_backup"/>
+        <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_build_black_24dp"
+                android:title="@string/drawer_settings"/>
+        <!--
+        <item
+                android:id="@+id/nav_rewards"
+                android:icon="@drawable/ic_plus_one_black_24dp"
+                android:title="@string/drawer_rewards"/>-->
+    </group>
+
+    <!--div-->
+
+    <group android:id="@+id/group1">
+        <item
+                android:id="@+id/nav_h2play"
+                android:icon="@drawable/ic_web_black_24dp"
+                android:title="@string/drawer_howtoplay"/>
+        <item
+                android:id="@+id/nav_site"
+                android:icon="@drawable/ic_web_black_24dp"
+                android:title="@string/drawer_site"/>
+        <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/ic_message_black_24dp"
+                android:title="@string/drawer_twitter"/>
+        <item
+                android:id="@+id/nav_ftp"
+                android:icon="@drawable/ic_cloud_black_24dp"
+                android:title="@string/drawer_ftp"/>
+    </group>
+
+</menu>

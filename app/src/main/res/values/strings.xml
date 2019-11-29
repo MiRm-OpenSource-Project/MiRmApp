@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">MiRmApp</string>
+    <string name="copyright">&#169;2018-2019 MiRmDevTeam (Itsu/haniokasai) All Rights Reserved.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ServerId</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Open with Browser</string>
+    <string name="action_share_twitter">Share server</string>
+    <string name="action_goserver">Play in your server</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="drawer_title_1">Server/Application</string>
+    <string name="drawer_console">Console</string>
+    <string name="drawer_control">Server Management</string>
+    <string name="drawer_ftp">FTP Manager</string>
+    <string name="drawer_backup">Backup</string>
+    <string name="drawer_rewards">Reward</string>
+    <string name="drawer_settings">Setting</string>
+
+    <string name="drawer_title_2">Links</string>
+    <string name="drawer_site">MiRm Site</string>
+    <string name="drawer_howtoplay">How to use</string>
+    <string name="drawer_twitter">Twitter</string>
+
+    <string name="activity_list_message_main">Choose your server.</string>
+    <string name="activity_list_button_aboutmirm">About MiRm</string>
+    <string name="activity_list_button_howtouse">How to use</string>
+    <string name="activity_list_dialog_wait">Please wait</string>
+
+    <string name="activity_login_message_title">MiRm</string>
+    <string name="activity_login_message_subtitle">Minecraft BE Free Server Hosting service</string>
+    <string name="activity_login_message_description">Login with your server account to manage your server.</string>
+    <string name="activity_login_edittext_id">Server ID</string>
+    <string name="activity_login_edittext_password">Password</string>
+    <string name="activity_login_switch_autologin">Enable auto login</string>
+    <string name="activity_login_button_login">Login</string>
+    <string name="activity_login_button_aboutmirm">About MiRm</string>
+    <string name="activity_login_button_create">Create Server</string>
+    <string name="activity_login_snackbar_button_create">Create！</string>
+    <string name="activity_login_snackbar_message_createserver">Want your server？</string>
+    <string name="activity_login_dialog_message_login">Login&#8230;</string>
+    <string name="activity_login_dialog_message_login_error">Failed to login. Confirm your Server ID or password.</string>
+
+    <string name="activity_main_dialog_message_reward_title">Reward</string>
+    <string name="activity_main_dialog_button_reward_about">About Reward</string>
+    <string name="activity_main_dialog_message_description">You can get rewards for your server. If you continue, AdVideo will play. Continue? (You will not able to get rewards if you stop AdVideo.)</string>
+    <string name="activity_main_dialog_message_filesize_description">Saved log size is over than 300MB. We recommend to delete the log as soon as possible.(Follow: \"Setting\"→\"Delete log\")</string>
+
+    <string name="activity_qrcode_message_serverid">ServerID: %s</string>
+    <string name="activity_qrcode_message_port">Port: %s</string>
+    <string name="activity_qrcode_button_save">Save QRCode</string>
+    <string name="activity_qrcode_button_close">Close</string>
+    <string name="activity_qrcode_message_description">The QRCode receiver will be able to join your server after their Minecraft BE App started automatically.</string>
+
+    <string name="cell_list_button_delete">Delete</string>
+    <string name="cell_list_button_manage">Manage</string>
+
+    <string name="dialog_progress_message">Loading&#8230;</string>
+
+    <string name="dialog_list_message_nopermission">Cannot get permission.</string>
+
+    <string name="dialog_share_button_twitter">Twitter</string>
+    <string name="dialog_share_button_link">Link</string>
+    <string name="dialog_share_button_qrcode">QRCode</string>
+    <string name="dialog_share_message_twitter_share">I am hosting Minecraft BE Server: %s Server\nLet\'s join!!→%s\nFrom MiRm Official App（%s）</string>
+    <string name="dialog_share_message_title">Share server</string>
+
+    <string name="dialog_logout_title">Logout</string>
+    <string name="dialog_logout_description">Will you logout from your server?</string>
+
+    <string name="dialog_filechooser_message_title">Select destination directory of the backup file.</string>
+    <string name="dialog_filechooser_button_select">Select</string>
+    <string name="dialog_filechooser_button_new">New Folder</string>
+
+    <string name="fragment_backup_message_description">MiRm supports to backup your server data. You can restruct your server if you lost your server data.</string>
+    <string name="fragment_backup_message_backup_title">Backup status</string>
+    <string name="fragment_backup_message_backup_destination">Backup dest.</string>
+    <string name="fragment_backup_message_noselected">Not selected</string>
+    <string name="fragment_backup_message_backuptype">Backup type</string>
+    <string name="fragment_backup_message_backuptype_value">.zip</string>
+    <string name="fragment_backup_message_attention_title">Attention（Please read）</string>
+    <string name="fragment_backup_message_attention">The short AdVideo will play if you start creating backup. The process will start after you watched the video to the last.</string>
+    <string name="fragment_backup_dialog_message_title">Input the folder name.</string>
+    <string name="fragment_backup_dialog_button_create">Create</string>
+    <string name="fragment_backup_button_select">Select backup destination</string>
+    <string name="fragment_backup_button_start">Create backup</string>
+
+    <string name="fragment_controller_message_expire_title">The rest of the time</string>
+    <string name="fragment_controller_message_serverid">Server name</string>
+    <string name="fragment_controller_message_status_unknown">Unknown</string>
+    <string name="fragment_controller_message_status_running">Running</string>
+    <string name="fragment_controller_message_status_stopped">Stopped</string>
+    <string name="fragment_controller_message_expire_unknown">Unknown</string>
+    <string name="fragment_controller_message_manage_title">Server management</string>
+    <string name="fragment_controller_message_run_title">Run</string>
+    <string name="fragment_controller_message_run_subtitle">Run your server.</string>
+    <string name="fragment_controller_message_stop_title">Stop</string>
+    <string name="fragment_controller_message_stop_subtitle">Stop your server.</string>
+    <string name="fragment_controller_message_forcestop_title">Force stop</string>
+    <string name="fragment_controller_message_forcestop_subtitle">Force stop your server.</string>
+    <string name="fragment_controller_message_utillity_title">Utility</string>
+    <string name="fragment_controller_message_fileplugin_title">Files and Plugins</string>
+    <string name="fragment_controller_message_fileplugin_subtitle">Manage plugins and files.</string>
+    <string name="fragment_controller_message_crushdump_title">Analyze crushdump</string>
+    <string name="fragment_controller_message_crushdump_subtitle">Analyze crushdump.</string>
+    <string name="fragment_controller_message_expiretime_title">Extend time</string>
+    <string name="fragment_controller_message_expiretime_subtitle">Extend the rest of the time.</string>
+    <string name="fragment_controller_message_expiretime_error">You have enough the rest of the time so you cannot extend it.</string>
+    <string name="fragment_controller_message_expiretime_description">The AdVideo will play if you tap \"Extend time\". You can extend it after you watched the video to the end.</string>
+    <string name="fragment_controller_message_expiretime_confirm">Will you extend the rest of the time?</string>
+    <string name="fragment_controller_message_needexpire">You need extend.</string>
+    <string name="fragment_controller_message_refreshing">refreshing&#8230;</string>
+    <string name="fragment_controller_message_time">%dh%dm</string>
+    <string name="fragment_controller_button_reload">Refresh</string>
+    <string name="fragment_controller_button_run">Run</string>
+    <string name="fragment_controller_button_open">Open</string>
+
+    <string name="fragment_setting_message_title">APplication Settings</string>
+    <string name="fragment_setting_switch_savelog">Save logs</string>
+    <string name="fragment_setting_message_savelog_description">The log which will be deleted is saved in your terminal. It is not related with your server data directly.</string>
+    <string name="fragment_setting_message_console_unit">ms</string>
+    <string name="fragment_setting_message_console_description">Set the interval time to refresh your console.</string>
+    <string name="fragment_setting_message_deleteserver">If you delete your server, its all data will be deleted from the MiRm system, so you will not be able to restore the data.</string>
+    <string name="fragment_setting_button_formula">Formula</string>
+    <string name="fragment_setting_button_deletelog">Delete log</string>
+    <string name="fragment_setting_button_deleteserver">Delete your server</string>
+
+    <string name="toast_copied_link">Copied link.</string>
+    <string name="toast_twitter_notfound">Twitter app is not found.</string>
+    <string name="toast_failedto_open_minecraft">Minecraft BE app is not found.</string>
+    <string name="toast_reward_tooearly">Too early to get rewards.</string>
+    <string name="toast_reward_failure">Failed to get rewards.</string>
+    <string name="toast_reward_complete_1">Got rewards!</string>
+    <string name="toast_reward_complete_2">Got rewards! The date of next gettable reward：%s</string>
+    <string name="toast_reward_failure_bytime">Too early to get rewards.The date of next gettable reward：：%s</string>
+    <string name="toast_expire_success">Extended the rest the time.</string>
+    <string name="toast_expire_failure">Failed to extend the rest of the time.</string>
+    <string name="toast_list_deleteserver_success">Released connection with: %s.</string>
+    <string name="toast_list_deleteserver_failure">Failed to release connection with: %s.</string>
+    <string name="toast_qrcode_failure_save">Failed to save QRCode.</string>
+    <string name="toast_qrcode_success_save">Saved to %s.</string>
+    <string name="toast_backup_failure_create">Failed to create the folder.</string>
+    <string name="toast_backup_choose">Select a folder.</string>
+    <string name="toast_backup_exists">The same name folder is already exists.</string>
+    <string name="toast_backup_complete">Created backup as %s.</string>
+    <string name="toast_backup_error">An error was occurred while creating backup.</string>
+
+    <string name="static_message_notice">Notification</string>
+    <string name="static_message_error">Error</string>
+    <string name="static_button_yes">Yes</string>
+    <string name="static_button_no">No</string>
+    <string name="static_button_back">Back</string>
+    <string name="static_button_next">Next</string>
+
+    <string name="data_salt">HamHamMusyaMusya</string>
+    <string name="data_property_comment">MiRm App Server</string>
+    <string name="admob_appid">ca-app-pub-1788933592781069~5589698525</string>
+    <string name="app_token">ochinpo2018</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <Button
+                    android:layout_height="40dp" android:id="@+id/web_back"
+                    android:textAlignment="center" android:layout_width="40dp"
+                    android:drawableLeft="@drawable/ic_keyboard_arrow_left_white_24dp"
+                    android:background="@color/colorPrimary"/>
+            <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" android:id="@+id/web_go"
+                    android:drawableRight="@drawable/ic_keyboard_arrow_right_white_24dp"
+                    android:background="@color/colorPrimary"/>
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_weight="1"/>
+            <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" android:id="@+id/web_browser"
+                    android:background="@drawable/browser_button"/>
+            <Button
+                    android:layout_height="40dp" android:id="@+id/web_close"
+                    android:layout_width="40dp"
+                    android:background="@drawable/close_button"/>
+        </LinearLayout>
+        <WebView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/web_view"/>
+    </LinearLayout>
+</RelativeLayout>

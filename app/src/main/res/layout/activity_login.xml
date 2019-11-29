@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view3" android:layout_height="8dp" android:background="#689f38"
+                        android:layout_weight="1"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="8dp" android:id="@+id/view4" android:background="#C2185B"
+                        android:layout_weight="1"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view5" android:layout_weight="1" android:layout_height="8dp"
+                        android:background="#1976D2"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view6" android:layout_weight="1" android:layout_height="8dp"
+                        android:background="#AFB42B"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view7" android:layout_weight="1" android:layout_height="8dp"
+                        android:background="#616161"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view8" android:layout_weight="1"
+                        android:background="#E64A19" android:layout_height="8dp"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:id="@+id/view9" android:layout_weight="1" android:layout_height="8dp"
+                        android:background="#00796B"/>
+            </LinearLayout>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"/>
+            <TextView
+                    android:text="@string/activity_login_message_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView4"
+                    android:textAlignment="center" android:textColor="@color/colorPrimary" android:textSize="24sp"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+            />
+            <TextView
+                    android:text="Minecraft BE 無料マルチプレイサービス"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView13" android:textAlignment="center"
+                    android:textColor="@color/colorBackground"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"/>
+            <TextView
+                    android:text="@string/activity_login_message_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView16"
+                    android:textColor="@color/colorBackground"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/loginServerId"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:hint="@string/activity_login_edittext_id"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/loginPassword" android:hint="@string/activity_login_edittext_password"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"/>
+            <Switch
+                    android:text="@string/activity_login_switch_autologin"
+                    android:layout_width="match_parent"
+                    android:id="@+id/saveLoginData" android:layout_height="wrap_content" android:paddingLeft="16dp"
+                    android:paddingRight="16dp" android:textColor="@color/colorBackground" android:checked="true"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"/>
+            <Button
+                    android:text="@string/activity_login_button_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/loginButton" android:paddingLeft="16dp"
+                    android:paddingRight="16dp" style="@style/Widget.AppCompat.Button.Colored"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:paddingLeft="16dp" android:paddingRight="16dp">
+                <Button
+                        android:text="@string/activity_login_button_aboutmirm"
+                        android:layout_height="wrap_content" android:id="@+id/aboutMiRmButton" android:layout_weight="0"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored" android:layout_width="wrap_content"/>
+                <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/view10" android:layout_weight="1"/>
+                <Button
+                        android:text="@string/activity_login_button_create"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/createServerButton"
+                        android:layout_weight="0"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+            </LinearLayout>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--
+    <com.google.android.gms.ads.AdView
+            android:id="@+id/loginAdView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-1788933592781069/5663642722"
+    >
+    </com.google.android.gms.ads.AdView>
+    -->
+
+    <!-- 本番用（元console_fragmentから）ca-app-pub-1788933592781069/5663642722 -->
+</RelativeLayout>

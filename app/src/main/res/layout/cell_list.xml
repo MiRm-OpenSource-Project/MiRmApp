@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:paddingBottom="8dp"
+            android:paddingLeft="16dp" android:paddingTop="8dp" android:gravity="center">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp"
+                android:gravity="center">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/listCellServerId"
+                    android:textColor="@color/colorBackground"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/listCellDate"/>
+        </LinearLayout>
+        <Button
+                android:text="@string/cell_list_button_delete"
+                android:layout_height="wrap_content" android:id="@+id/listCellDeleteButton" android:layout_width="0dp"
+                android:layout_weight="0.5" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+        <Button
+                android:text="@string/cell_list_button_manage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/listCellManageButton" android:layout_weight="0.5"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored" android:textAlignment="center"/>
+    </LinearLayout>
+</LinearLayout>

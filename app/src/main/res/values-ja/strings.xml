@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">MiRmApp</string>
+    <string name="copyright">&#169;2018-2019 MiRmDevTeam (Itsu/haniokasai) All Rights Reserved.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ServerId</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">ブラウザで開く</string>
+    <string name="action_share_twitter">サーバーをシェア</string>
+    <string name="action_goserver">サーバーに入る</string>
+    <string name="action_logout">ログアウト</string>
+
+    <string name="drawer_title_1">サーバー/アプリ</string>
+    <string name="drawer_console">コンソール</string>
+    <string name="drawer_control">サーバーコントロール</string>
+    <string name="drawer_ftp">FTPマネージャ</string>
+    <string name="drawer_backup">バックアップ</string>
+    <string name="drawer_rewards">報酬</string>
+    <string name="drawer_settings">設定</string>
+    <string name="drawer_information">バージョン情報</string>
+
+    <string name="drawer_title_2">リンク</string>
+    <string name="drawer_site">MiRm 公式サイト</string>
+    <string name="drawer_howtoplay">使い方</string>
+    <string name="drawer_twitter">Twitter</string>
+
+    <string name="activity_list_message_main">管理するサーバーを選んでください。</string>
+    <string name="activity_list_button_aboutmirm">MiRmとは</string>
+    <string name="activity_list_button_howtouse">アプリの使い方</string>
+    <string name="activity_list_dialog_wait">お待ちください</string>
+
+    <string name="activity_login_message_title">MiRm</string>
+    <string name="activity_login_message_subtitle">Minecraft BE 無料マルチプレイサービス</string>
+    <string name="activity_login_message_description">本アプリを使用するには、現在使用しているサーバーのアカウントでログインしてください。</string>
+    <string name="activity_login_edittext_id">サーバーID or サーバー名</string>
+    <string name="activity_login_edittext_password">パスワード</string>
+    <string name="activity_login_switch_autologin">自動ログインを有効にする</string>
+    <string name="activity_login_button_login">ログイン</string>
+    <string name="activity_login_button_aboutmirm">MiRmとは</string>
+    <string name="activity_login_button_create">サーバーを作成</string>
+    <string name="activity_login_snackbar_button_create">作成する！</string>
+    <string name="activity_login_snackbar_message_createserver">サーバーをお持ちではありませんか？</string>
+    <string name="activity_login_dialog_message_login">ログインしています</string>
+    <string name="activity_login_dialog_message_login_error">ログインに失敗しました。パスワードが間違っている、もしくはBANされている可能性があります。</string>
+
+    <string name="activity_main_dialog_message_reward_title">報酬</string>
+    <string name="activity_main_dialog_button_reward_about">報酬について</string>
+    <string name="activity_main_dialog_message_description">サーバーに報酬を得ることができます。続行すると数十秒の動画広告が再生されます。報酬を得ますか？（キャンセルすると報酬は得られません。）</string>
+    <string name="activity_main_dialog_message_filesize_description">保存されているログのサイズが300MBを超えています。ファイルサイズが大きくなる前に削除することをお勧めします。削除方法：\"設定\"→\"ログの削除\"</string>
+
+    <string name="activity_qrcode_message_serverid">ServerID: %s</string>
+    <string name="activity_qrcode_message_port">Port: %s</string>
+    <string name="activity_qrcode_button_save">QRコードを保存</string>
+    <string name="activity_qrcode_button_close">閉じる</string>
+    <string name="activity_qrcode_message_description">受け取った人はこのコードを読み込むことでMinecraftが開き、自動であなたのサーバーを追加することができます。</string>
+
+    <string name="cell_list_button_delete">削除</string>
+    <string name="cell_list_button_manage">管理</string>
+
+    <string name="dialog_progress_message">ロード中</string>
+
+    <string name="dialog_list_message_nopermission">権限を得られませんでした。アプリが正しく動作しない可能性があります。</string>
+
+    <string name="dialog_share_button_twitter">Twitter</string>
+    <string name="dialog_share_button_link">リンク生成</string>
+    <string name="dialog_share_button_qrcode">QRコード</string>
+    <string name="dialog_share_message_twitter_share">MiRmでサーバーを立ててるよ！：%sサーバー\nURLをタップして参加→%s\nMiRm公式アプリから（%s）</string>
+    <string name="dialog_share_message_title">サーバーをシェア</string>
+
+    <string name="dialog_logout_title">ログアウト</string>
+    <string name="dialog_logout_description">ログアウトしますか？</string>
+
+    <string name="dialog_filechooser_message_title">バックアップ先フォルダを選択してください。</string>
+    <string name="dialog_filechooser_button_select">選択</string>
+    <string name="dialog_filechooser_button_new">新規作成</string>
+
+    <string name="fragment_backup_message_description">MiRmではサーバーのバックアップをサポートしています。サーバーデータをお使いの端末にバックアップしておくことで、万が一それが消失した場合でも迅速に復旧することができます。</string>
+    <string name="fragment_backup_message_backup_title">バックアップステータス</string>
+    <string name="fragment_backup_message_backup_destination">バックアップ先</string>
+    <string name="fragment_backup_message_noselected">未設定</string>
+    <string name="fragment_backup_message_backuptype">バックアップ形式</string>
+    <string name="fragment_backup_message_backuptype_value">.zip</string>
+    <string name="fragment_backup_message_attention_title">注意（必ずお読みください）</string>
+    <string name="fragment_backup_message_attention">バックアップはzip形式にて選択されたディレクトリに保存されます。別途エクスプローラアプリで解凍等の操作が行えます。</string>
+    <string name="fragment_backup_dialog_message_title">フォルダ名を入力してください。</string>
+    <string name="fragment_backup_dialog_button_create">作成</string>
+    <string name="fragment_backup_button_select">バックアップ先を選択</string>
+    <string name="fragment_backup_button_start">バックアップを開始</string>
+    <string name="fragment_backup_dialog_backupping">バックアップ中&#8230;</string>
+
+    <string name="fragment_controller_message_expire_title">残り使用時間</string>
+    <string name="fragment_controller_message_serverid">サーバー名</string>
+    <string name="fragment_controller_message_status_unknown">不明</string>
+    <string name="fragment_controller_message_status_running">稼働中</string>
+    <string name="fragment_controller_message_status_stopped">停止中</string>
+    <string name="fragment_controller_message_expire_unknown">未取得</string>
+    <string name="fragment_controller_message_manage_title">サーバー操作</string>
+    <string name="fragment_controller_message_run_title">起動</string>
+    <string name="fragment_controller_message_run_subtitle">サーバーを起動します</string>
+    <string name="fragment_controller_message_stop_title">停止</string>
+    <string name="fragment_controller_message_stop_subtitle">サーバーを停止します</string>
+    <string name="fragment_controller_message_forcestop_title">強制停止</string>
+    <string name="fragment_controller_message_forcestop_subtitle">サーバーを強制的に停止します</string>
+    <string name="fragment_controller_message_utillity_title">ユーティリティ</string>
+    <string name="fragment_controller_message_fileplugin_title">ファイルとプラグイン</string>
+    <string name="fragment_controller_message_fileplugin_subtitle">プラグイン等を管理します</string>
+    <string name="fragment_controller_message_crushdump_title">クラッシュダンプ解析</string>
+    <string name="fragment_controller_message_crushdump_subtitle">クラッシュダンプを解析します</string>
+    <string name="fragment_controller_message_expiretime_title">利用期間延長</string>
+    <string name="fragment_controller_message_expiretime_subtitle">残り使用時間を延長します</string>
+    <string name="fragment_controller_message_expiretime_error">残り使用時間が十分にあるため、延長できません。</string>
+    <string name="fragment_controller_message_expiretime_description">利用期限満了が近づいたときにのみ、利用期間の延長が可能です。</string>
+    <string name="fragment_controller_message_expiretime_confirm">動画広告を視聴して利用期間を延長しますか？</string>
+    <string name="fragment_controller_message_needexpire">延長が必要です</string>
+    <string name="fragment_controller_message_refreshing">更新中&#8230;</string>
+    <string name="fragment_controller_message_time">%d時間%d分</string>
+    <string name="fragment_controller_button_reload">更新</string>
+    <string name="fragment_controller_button_run">実行</string>
+    <string name="fragment_controller_button_open">開く</string>
+
+    <string name="fragment_setting_message_title">アプリの設定</string>
+    <string name="fragment_setting_switch_savelog">ログを保存する</string>
+    <string name="fragment_setting_message_savelog_description">クリアされるログはこの端末に保存されているものです。サーバーデータとは直接関係しません。</string>
+    <string name="fragment_setting_message_console_unit">ms</string>
+    <string name="fragment_setting_message_console_description">コンソールの表示間隔を設定します。数値が小さいほどコンソールを頻繁に取得でき、遅延が少なくなりますが、マシンパワーを消費します。</string>
+    <string name="fragment_setting_message_deleteserver">サーバーを削除すると、MiRmから完全にサーバーのデータが削除され、復元することはできません。</string>
+    <string name="fragment_setting_button_formula">利用規約</string>
+    <string name="fragment_setting_button_deletelog">ログを削除</string>
+    <string name="fragment_setting_button_deleteserver">サーバーを削除</string>
+
+    <string name="toast_copied_link">リンクをコピーしました。</string>
+    <string name="toast_twitter_notfound">Twitterアプリがインストールされていません。</string>
+    <string name="toast_failedto_open_minecraft">Minecraft BEの起動に失敗しました。</string>
+    <string name="toast_reward_tooearly">報酬を受け取るのが早すぎます！</string>
+    <string name="toast_reward_failure">報酬の受け取りに失敗しました。</string>
+    <string name="toast_reward_complete_1">報酬を受け取りました。</string>
+    <string name="toast_reward_complete_2">報酬を受け取りました。次回受け取り可能日：</string>
+    <string name="toast_reward_failure_bytime">前回報酬受け取り時から時間がたっていません。次回報酬受け取り可能日：%s</string>
+    <string name="toast_expire_success">利用期間を延長しました。</string>
+    <string name="toast_expire_failure">利用期間の延長に失敗しました。</string>
+    <string name="toast_list_deleteserver_success">%sとの接続を解除しました。</string>
+    <string name="toast_list_deleteserver_failure">%sの接続を解除に失敗しました。</string>
+    <string name="toast_qrcode_failure_save">保存に失敗しました。</string>
+    <string name="toast_qrcode_success_save">%sに保存しました。</string>
+    <string name="toast_backup_failure_create">フォルダの作成に失敗しました。</string>
+    <string name="toast_backup_choose">フォルダを選択してください。</string>
+    <string name="toast_backup_exists">同じ名前のファイルが既にあります。</string>
+    <string name="toast_backup_complete">%sとしてバックアップしました。</string>
+    <string name="toast_backup_error">バックアップに失敗しました。</string>
+
+    <string name="static_message_notice">お知らせ</string>
+    <string name="static_message_error">エラー</string>
+    <string name="static_button_yes">はい</string>
+    <string name="static_button_no">いいえ</string>
+    <string name="static_button_back">戻る</string>
+    <string name="static_button_next">次へ</string>
+
+    <string name="data_salt">HamHamMusyaMusya</string>
+    <string name="data_property_comment">MiRm App Server</string>
+    <string name="admob_appid">ca-app-pub-1788933592781069~5589698525</string>
+    <string name="app_token">ochinpo2018</string>
+
+</resources>

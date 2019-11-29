@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="jp.mirm.mirmapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- To auto-complete the email text field in the picture4 form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+            android:allowBackup="true"
+            android:hardwareAccelerated="true"
+            android:icon="@mipmap/icon1"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/icon1"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            android:name=".MainApplication">
+
+        <activity
+                android:name=".servermain.MainActivity"
+                android:label="@string/app_name"
+                android:configChanges="orientation|screenSize"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+                android:name=".login.LoginActivity"
+                android:configChanges="orientation|screenSize"
+                android:label="@string/app_name">
+        </activity>
+
+        <activity
+                android:name=".serverlist.ListActivity"
+                android:configChanges="orientation|screenSize"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="mirm" android:host="add"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".web.WebActivity"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:configChanges="orientation|screenSize"
+                android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+        <activity
+                android:name=".qrcode.QRCodeActivity"
+                android:configChanges="orientation|screenSize"
+                android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+        <activity
+                android:name="com.google.android.gms.ads.AdActivity"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+
+        <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version"/>
+        <meta-data
+                android:name="com.google.firebase.messaging.default_notification_icon"
+                android:resource="@mipmap/icon1"/>
+        <meta-data
+                android:name="firebase_messaging_auto_init_enabled"
+                android:value="false"/>
+        <meta-data
+                android:name="com.google.firebase.messaging.default_notification_color"
+                android:resource="@color/colorPrimary"/>
+
+        <service android:name=".utils.MiRmFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name=".utils.MiRmFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-1788933592781069~5589698525"/>
+
+    </application>
+
+</manifest>
